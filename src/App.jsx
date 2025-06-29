@@ -8,7 +8,7 @@ export default function App() {
   const [resultado, setResultado] = useState(null)
 
   const calcular = () => {
-    const valorOuro24k = 350.0 // valor de exemplo
+    const valorOuro24k = 570.0 // valor de exemplo
     const valorLiquido = valorOuro24k * 0.84
 
     const multiplicadores = {
