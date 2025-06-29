@@ -9,7 +9,8 @@ body {
   padding: 2rem;
 }
 .splash .logo {
-  width: 300px;
+  width: 200px;
+  max-width: 80%;
   margin: 2rem auto;
   display: block;
 }
