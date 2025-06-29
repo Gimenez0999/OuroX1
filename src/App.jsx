@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import logo from './assets/logo.png';
 
 export default function App() {
   const [teor, setTeor] = useState('')
@@ -29,7 +30,7 @@ export default function App() {
   return (
     <div className="app">
       <div className="splash">
-        <img src="/src/assets/logo.png" alt="OuroPrice" className="logo" />
+       <img src={logo} alt="OuroPrice" className="logo" />
       </div>
       <div className="content">
         <h1>Calculadora de Ouro</h1>
