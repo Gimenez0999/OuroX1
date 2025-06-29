@@ -30,9 +30,11 @@ export default function App() {
 
   return (
     <div className="app">
-      <div className="content">
-        <img src={logo} alt="OuroPrice" className="logo-inside" />
-        <h1>Calculadora de Ouro</h1>
+     <div className="content">
+  <div className="logo-header">
+    <img src={logo} alt="OuroPrice" className="logo-inline" />
+    <h1>Calculadora de Ouro</h1>
+  </div>
         <select value={teor} onChange={e => setTeor(e.target.value)}>
           <option value="">Selecione o teor</option>
           <option value="24">24k</option>
