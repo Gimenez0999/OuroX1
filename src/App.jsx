@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from './assets/logo.png';
+import './index.css';
 
 export default function App() {
   const [teor, setTeor] = useState('')
@@ -29,10 +30,8 @@ export default function App() {
 
   return (
     <div className="app">
-      <div className="splash">
-       <img src={logo} alt="OuroPrice" className="logo" />
-      </div>
       <div className="content">
+        <img src={logo} alt="OuroPrice" className="logo-inside" />
         <h1>Calculadora de Ouro</h1>
         <select value={teor} onChange={e => setTeor(e.target.value)}>
           <option value="">Selecione o teor</option>
