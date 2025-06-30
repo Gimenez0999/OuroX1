@@ -51,6 +51,15 @@ export default function App() {
         />
         <button onClick={calcular}>Calcular</button>
         <div className="resultado">{resultado}</div>
+       <a
+  href="https://wa.me/5511991114730"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="whatsapp-button"
+>
+  💬 Agende sua Venda
+</a>
+
       </div>
     </div>
   )
